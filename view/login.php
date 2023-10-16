@@ -9,7 +9,12 @@
 				</div>
 			<?php } ?>
 				<h1><i class="fa fa-soundcloud"></i> Connectez-vous !</h1>
-				<form method="POST" action="login.php">
+				<form method="POST" action="login.php"> 
+				<div class="form-input">
+						<span class="name">
+							<input type="text" name="name" placeholder="Name">
+						</span>
+					</div>
 					<div class="form-input">
 						<span class="email">
 							<input type="text" name="email" placeholder="Email">
